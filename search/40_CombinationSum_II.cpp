@@ -18,7 +18,7 @@ public:
 		}
 		for(int i=idx;i<candidates.size();i++){
 			if (target < candidates[i]) return;
-			// 一定是i>idx,说明第i个与后面的组合结果一定在i-1处出现过
+			// 如果是i>idx,说明第i个与后面的组合结果一定在i-1处出现过
 			if (i > idx && candidates[i] == candidates[i-1]) continue;
 			tmp.push_back(candidates[i]);
 			dfs(ans,candidates,i,tmp,target-candidates[i]);
