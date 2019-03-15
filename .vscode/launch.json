@@ -8,7 +8,7 @@
             "name": "(gdb) Launch direct",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/${workspaceRootFolderName}",
+            "program": "${workspaceFolder}/${workspaceRootFolderName}.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
