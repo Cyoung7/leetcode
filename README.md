@@ -64,7 +64,7 @@
 
 ## Dynamic Programming
 
-### 1.`input:O(n),Subproblems:O(n),Depends On:O(1),Time:O(n),Space:O(n) --> O(1)`
+1.`input:O(n),Subproblems:O(n),Depends On:O(1),Time:O(n),Space:O(n) --> O(1)`
 
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/53_Maximum_Subarray.cpp) | `Easy`   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -79,7 +79,7 @@
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | C++                                                          | `Medium` |
 | [801. Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/) | C++                                                          | `Medium` |
 
-### 2.`input:O(n),Subproblems:O(n),Depends On:O(n),Time:O(n^2),Space:O(n)`
+2.`input:O(n),Subproblems:O(n),Depends On:O(n),Time:O(n^2),Space:O(n)`
 
 | [139. Word Break](https://leetcode.com/problems/word-break/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/139_Word_Break.cpp) | `Medium` |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -88,7 +88,7 @@
 | [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) code | C++                                                          | `Medium` |
 | [818. Race Car](https://leetcode.com/problems/race-car/) code | C++                                                          | `Hard`   |
 
-### 3.`input:O(n)+O(m),Subproblems:O(mn),Depends On:O(1),Time:O(mn),Space:O(mn)`
+3.`input:O(n)+O(m),Subproblems:O(mn),Depends On:O(1),Time:O(mn),Space:O(mn)`
 
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | C++                                                          | `Hard`   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -99,33 +99,33 @@
 | [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | C++                                                          | `Medium` |
 | [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | C++                                                          | `Medium` |
 
-### 4.`input:O(n),Subproblems:O(n^2),Depends On:O(n),Time:O(n^3),Space:O(n^2)`
+4.`input:O(n),Subproblems:O(n^2),Depends On:O(n),Time:O(n^3),Space:O(n^2)`
 
 | [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/312_Burst_Balloons.cpp) | `Hard` |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
 | [664. Strange Printer](https://leetcode.com/problems/strange-printer/) | C++                                                          | `Hard` |
 | [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/1000_Minimum_Cost_to_Merge_Stones.cpp) | `Hard` |
 
-### 5. `input:O(n),Subproblems:O(n^3),Depends On:O(n),Time:O(n^4),Space:O(n^3)`
+5. `input:O(n),Subproblems:O(n^3),Depends On:O(n),Time:O(n^4),Space:O(n^3)`
 
 | [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) | C++  | `Hard` |
 | ------------------------------------------------------------ | ---- | ------ |
 |                                                              |      |        |
 
-### 6. `input:O(n),Subproblems:O(n*2^n),Depends On:O(n),Time:O(n^2*2^n),Space:O(n*2^n)`
+6. `input:O(n),Subproblems:O(n*2^n),Depends On:O(n),Time:O(n^2*2^n),Space:O(n*2^n)`
 
 | [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | C++  | `Hard` |
 | ------------------------------------------------------------ | ---- | ------ |
 | [996. Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/) | C++  | `Hard` |
 | [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | C++  | `Hard` |
 
-### 7. `input:O(n^2),Subproblems:O(n^3),Depends On:O(1),Time:O(n^3),Space:O(n^3)` 
+7. `input:O(n^2),Subproblems:O(n^3),Depends On:O(1),Time:O(n^3),Space:O(n^3)` 
 
 | [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | C++  | `Hard` |
 | ------------------------------------------------------------ | ---- | ------ |
 |                                                              |      |        |
 
-### 8.`input:O(n)+k,Subproblems:O(k),Depends On:O(n),Time:O(nk),Space:O(k)`
+8.`input:O(n)+k,Subproblems:O(k),Depends On:O(n),Time:O(nk),Space:O(k)`
 
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/322_Coin_Change.cpp) | `Medium` |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -133,13 +133,13 @@
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | C++                                                          | `Medium` |
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | C++                                                          | `Medium` |
 
-### 9.`input:O(n)+k,Subproblems:O(nk),Depends On:O(n),Time:O(k*n^2),Space:O(nk)`
+9.`input:O(n)+k,Subproblems:O(nk),Depends On:O(n),Time:O(k*n^2),Space:O(nk)`
 
 | [813. Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages/) | C++  | `Medium` |
 | ------------------------------------------------------------ | ---- | -------- |
 |                                                              |      |          |
 
-### 10. `input:O(mn),Subproblems:O(mn),Depends On:O(1),Time:O(mn),Space:O(mn) --> O(m)`
+10. `input:O(mn),Subproblems:O(mn),Depends On:O(1),Time:O(mn),Space:O(mn) --> O(m)`
 
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/62_Unique_Paths.cpp) | `Medium` |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -152,7 +152,7 @@
 | [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | C++                                                          | `Medium` |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | C++                                                          | `Medium` |
 
-### 11. `input:O(mn)+k,Subproblems:O(kmn),Depends On:O(1),Time:O(kmn),Space:O(kmn) --> O(mn)`
+11. `input:O(mn)+k,Subproblems:O(kmn),Depends On:O(1),Time:O(kmn),Space:O(kmn) --> O(mn)`
 
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [C++](https://github.com/Cyoung7/leetcode/blob/master/dp/576_Out_of_Boundary_Paths.cpp) | `Medium` |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
