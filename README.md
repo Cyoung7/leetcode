@@ -18,7 +18,6 @@
 | [78. Subsets](https://leetcode.com/problems/subsets/)        | [C++](https://github.com/Cyoung7/leetcode/blob/master/search/78_Subsets.cpp) | `Medium`   |
 | [90. Subsets II](https://leetcode.com/problems/subsets-ii/)  | [C++](https://github.com/Cyoung7/leetcode/blob/master/search/90_Subset_II.cpp) | `Medium`   |
 
-[][]
 
 ### Permutation
 
